@@ -12,11 +12,11 @@ pipeline {
 		}
 		stage('Compile Java Code') {
 		  steps {
-		   sh '''
+		   sh ''
 			mkdir -p build
 			find . -name "*.java" > sources.txt
 			javac -d build @sources.txt
-		   '''
+		   ''
 		 }
 		}
 		stage('Run SonarQube Analysis') {
