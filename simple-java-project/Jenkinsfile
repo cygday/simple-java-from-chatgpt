@@ -30,9 +30,9 @@ pipeline {
 			   -Dsonar.sources=src \
 			   -Dsonar.java.binaries=build
 			 '''
-			} 	
-		  }
-	       }
+		    } 	
+		   }
+	    }
 	}
 	post {
 		always {
