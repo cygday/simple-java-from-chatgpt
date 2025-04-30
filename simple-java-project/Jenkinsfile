@@ -27,7 +27,7 @@ pipeline {
 			   ${SONAR_SCANNER}/bin/sonar-scanner \
 			   -Dsonar.projectKey=simple-java-app \
 			   -Dsonar.projectName="Simple Java App" \
-			   -Dsonar.sources=src \
+			   -Dsonar.sources=. \
       			   -Dsonar.host.url=http://172.17.0.1:9000
 	                   -Dsonar.login=$SONAR_TOKEN
 		    	   -Dsonar.java.binaries=build
