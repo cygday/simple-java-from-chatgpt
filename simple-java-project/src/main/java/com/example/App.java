@@ -1,6 +1,6 @@
-public class App{
+public class App {
 	public static void main(String[] args)
 {
-		System.out.printIn("hello, sonarqube + jenkins!");
+		System.out.println("hello, sonarqube + jenkins!");
 	}
 }
