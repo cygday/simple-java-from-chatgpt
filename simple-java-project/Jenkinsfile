@@ -28,7 +28,7 @@ pipeline {
 			   -Dsonar.projectKey=simple-java-app \
 			   -Dsonar.projectName="Simple Java App" \
 			   -Dsonar.sources=src \
-      			   -Dsonar.host.url=http://sonarqube:9000
+      			   -Dsonar.host.url=http://172.17.0.1:9000
 	                   -Dsonar.login=squ_1f7b5b63feb796047a5d3a48f6a20d57d59de85b
 			   -Dsonar.java.binaries=build
 			 '''
